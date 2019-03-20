@@ -1,0 +1,30 @@
+{
+	"name": "litegoio/magento2-lightningpayments"
+	,"version": "1.0.0"
+	,"description": "Allow accept lightning payments throuth LiteGo.io"
+	,"type": "magento2-module"
+	,"homepage": "https://litego.io"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Sergey Shperov",
+		"email": "s.shperov@gmail.com",
+		"role": "Developer"
+	}]
+	,"require": {
+		"litegoio/litego-php": ">=1.1"
+	}
+	,"autoload": {
+		"files": ["registration.php"]
+		,"psr-4": {
+			"LiteGoio\\LightningPayments\\": ""
+		}
+	}
+	,"keywords": [
+		"Payment Method"
+		,"eCommerce"
+		,"Magento 2"
+		,"Magento extension"
+		,"Lightning"
+		,"LiteGo"
+	]
+}
